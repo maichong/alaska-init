@@ -1,0 +1,86 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "node": true
+  },
+  "globals": {
+  },
+  "parser": "babel-eslint",
+  "plugins": ["flowtype", "flowtype-errors"],
+  "rules": {
+    "flowtype/define-flow-type": 1,
+    "flowtype/use-flow-type": 1,
+    "flowtype-errors/show-errors": 2,
+    "arrow-parens": [2, "always"],
+    "class-methods-use-this": 1,
+    "prefer-const": 0,
+    "prefer-template": 0,
+    "no-duplicate-imports": 0,
+    "no-param-reassign": 0,
+    "no-prototype-builtins": 0,
+    "no-underscore-dangle": 0,
+    "no-continue": 0,
+    "no-console": [1, {"allow": ["warn", "error", "trace"]}],
+    "comma-dangle": [
+      "error", {
+        "arrays": "only-multiline",
+        "objects": "only-multiline",
+        "imports": "never",
+        "exports": "never",
+        "functions": "never"
+      }
+    ],
+    "spaced-comment": [0, "always"],
+    "func-names": 0,
+    "import/extensions": 0,
+    "import/no-unresolved": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-duplicates": 2,
+    "import/prefer-default-export": 1,
+    "radix": 0,
+    "max-len": [2, {"code": 120, "ignoreComments": true}],
+    "require-yield": 1,
+    "jsx-a11y/label-has-for": 0,
+    "jsx-a11y/no-static-element-interactions": 1,
+    "react/forbid-prop-types": 0,
+    "react/no-unused-prop-types": 1,
+    "react/prefer-stateless-function": 0,
+    "react/jsx-wrap-multilines": [2, {"declaration": false, "assignment": false, "return": true}],
+    "react/sort-comp": [
+      2, {
+        "order": [
+          "static-methods",
+          "type-annotations",
+          "lifecycle",
+          "everything-else",
+          "/^handle.+$/",
+          "render"
+        ],
+        "groups": {
+          "lifecycle": [
+            "displayName",
+            "propTypes",
+            "contextTypes",
+            "childContextTypes",
+            "mixins",
+            "statics",
+            "defaultProps",
+            "props",
+            "state",
+            "constructor",
+            "getDefaultProps",
+            "getInitialState",
+            "getChildContext",
+            "componentWillMount",
+            "componentDidMount",
+            "componentWillReceiveProps",
+            "shouldComponentUpdate",
+            "componentWillUpdate",
+            "componentDidUpdate",
+            "componentWillUnmount"
+          ]
+        }
+      }
+    ]
+  }
+}
