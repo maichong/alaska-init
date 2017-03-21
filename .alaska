@@ -3,7 +3,10 @@
     "alaska-user": true,
     "alaska-update": true,
     "alaska-admin": true,
-    "alaska-post": true
+    "alaska-post": true,
+    "alaska-goods": true,
+    "alaska-order": true,
+    "alaska-cart": true
   },
   "id": "demo"
 }

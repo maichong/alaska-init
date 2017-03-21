@@ -17,7 +17,10 @@ export default {
     'alaska-user': {},
     'alaska-update': {},
     'alaska-admin': {},
-    'alaska-post': {}
+    'alaska-post': {},
+    'alaska-goods': {},
+    'alaska-order': {},
+    'alaska-cart': {}
   },
   domain: '',
   prefix: '',
