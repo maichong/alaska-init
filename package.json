@@ -4,6 +4,8 @@
   "description": "Alaska initialization templates project",
   "private": true,
   "scripts": {
+    "eslint": "eslint ./",
+    "flow": "flow check --show-all-errors",
     "start": "node server.js",
     "rollup": "rollup -c rollup.admin.pro.js",
     "rollup-dev": "rollup -c rollup.admin.dev.js",
@@ -28,6 +30,7 @@
   },
   "homepage": "https://github.com/maichong/alaska-init#readme",
   "dependencies": {
+    "akita": "^0.2.2",
     "alaska": "^0.11.0",
     "alaska-admin": "^0.11.0",
     "alaska-cache-mongo": "^0.11.0",
@@ -65,6 +68,8 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
+    "flow-bin": "^0.42.0",
+    "flow-mongoose": "^0.1.1",
     "font-awesome": "^4.7.0",
     "gulp": "^3.9.1",
     "gulp-less": "^3.3.0",
