@@ -1,11 +1,9 @@
 export default {
   db: process.env.DB,
-  appMiddlewares: [
-    {
-      id: 'koa-logger',
-      sort: 1000
-    }
-  ],
+  appMiddlewares: [{
+    id: 'koa-logger',
+    sort: 1000
+  }],
   session: {
     cookie: {},
     store: {
@@ -15,16 +13,16 @@ export default {
       maxAge: 3600 * 1000
     }
   },
-  services: {},
+  services: {
+    'alaska-user': {}
+  },
   domain: '',
   prefix: '',
   redirect: '',
-  statics: [
-    {
-      root: 'public',
-      prefix: ''
-    }
-  ],
+  statics: [{
+    root: 'public',
+    prefix: ''
+  }],
   superUser: '',
   autoUpdate: true,
   'alaska-field-image': {
@@ -40,4 +38,4 @@ export default {
     }
   },
   port: 5000
-}
+};
