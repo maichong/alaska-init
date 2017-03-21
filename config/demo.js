@@ -14,7 +14,8 @@ export default {
     }
   },
   services: {
-    'alaska-user': {}
+    'alaska-user': {},
+    'alaska-update': {}
   },
   domain: '',
   prefix: '',

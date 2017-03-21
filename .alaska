@@ -1,6 +1,7 @@
 {
   "services": {
-    "alaska-user": true
+    "alaska-user": true,
+    "alaska-update": true
   },
   "id": "demo"
 }
