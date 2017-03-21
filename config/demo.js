@@ -16,7 +16,8 @@ export default {
   services: {
     'alaska-user': {},
     'alaska-update': {},
-    'alaska-admin': {}
+    'alaska-admin': {},
+    'alaska-post': {}
   },
   domain: '',
   prefix: '',

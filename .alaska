@@ -2,7 +2,8 @@
   "services": {
     "alaska-user": true,
     "alaska-update": true,
-    "alaska-admin": true
+    "alaska-admin": true,
+    "alaska-post": true
   },
   "id": "demo"
 }

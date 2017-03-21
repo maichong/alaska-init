@@ -35,6 +35,7 @@
     "alaska-field-html": "^0.11.0",
     "alaska-field-relationship": "^0.11.0",
     "alaska-field-text": "^0.11.0",
+    "alaska-post": "^0.11.0",
     "alaska-update": "^0.11.0",
     "alaska-user": "^0.11.0",
     "babel-plugin-syntax-class-properties": "^6.13.0",
