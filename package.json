@@ -18,6 +18,10 @@
   "homepage": "https://github.com/maichong/alaska-init#readme",
   "dependencies": {
     "alaska": "^0.11.0",
+    "alaska-field-datetime": "^0.11.0",
+    "alaska-field-html": "^0.11.0",
+    "alaska-field-relationship": "^0.11.0",
+    "alaska-field-text": "^0.11.0",
     "babel-plugin-syntax-class-properties": "^6.13.0",
     "babel-plugin-syntax-flow": "^6.18.0",
     "babel-plugin-transform-class-properties": "^6.23.0",
@@ -34,19 +38,12 @@
     "babel-preset-es2015": "^6.24.0",
     "babel-preset-react": "^6.23.0",
     "babel-preset-stage-0": "^6.22.0",
-    "css-loader": "^0.27.3",
     "eslint": "^3.18.0",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-flowtype": "^2.30.3",
     "eslint-plugin-flowtype-errors": "^3.0.1",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.3",
-    "flow-bin": "^0.42.0",
-    "flow-alaska": "^0.11.0",
-    "less": "^2.7.2",
-    "less-loader": "^4.0.0",
-    "style-loader": "^0.15.0",
-    "webpack": "^2.2.1"
+    "eslint-plugin-react": "^6.10.3"
   }
 }
