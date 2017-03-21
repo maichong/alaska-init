@@ -5,20 +5,9 @@
 node_modules/.*
 
 [libs]
-flow/
-flow-typed/
-packages/flow-alaska/
+node_modules/akita/flow/
 node_modules/flow-alaska/flow/
 node_modules/flow-mongoose/flow/
-node_modules/flow-mime/flow/
-node_modules/flow-statuses/flow/
-node_modules/flow-koa-compose/flow/
-node_modules/flow-koa-router/flow/
-node_modules/flow-intl-messageformat/flow/
-node_modules/flow-numeral/flow/
-node_modules/flow-path-to-regexp/flow/
-node_modules/flow-react-router/flow/
-node_modules/flow-qs/flow/
 
 [options]
 strip_root=true

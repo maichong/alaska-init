@@ -4,6 +4,8 @@
   "description": "Alaska initialization templates project",
   "private": true,
   "scripts": {
+    "eslint": "eslint ./",
+    "flow": "flow check --show-all-errors",
     "start": "node server.js"
   },
   "repository": {
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/maichong/alaska-init#readme",
   "dependencies": {
+    "akita": "^0.2.2",
     "alaska": "^0.11.0",
     "alaska-cache-mongo": "^0.11.0",
     "alaska-field-datetime": "^0.11.0",
@@ -47,6 +50,8 @@
     "eslint-plugin-flowtype-errors": "^3.0.1",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.3"
+    "eslint-plugin-react": "^6.10.3",
+    "flow-bin": "^0.42.0",
+    "flow-mongoose": "^0.1.1"
   }
 }
