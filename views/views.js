@@ -1,3 +1,5 @@
+/* eslint no-path-concat:0 */
+
 exports.views = {
   //Component: __dirname + '/Component.jsx'
 };
