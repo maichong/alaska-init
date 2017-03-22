@@ -6,8 +6,8 @@ export default class ArticleCat extends Model {
   static defaultColumns = '_id name parent';
 
   static api = {
-    all: 1,
-    list: 1
+    list: 1,
+    paginate: 1,
   };
 
   static fields = {
