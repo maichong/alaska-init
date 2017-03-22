@@ -30,16 +30,16 @@
   },
   "homepage": "https://github.com/maichong/alaska-init#readme",
   "dependencies": {
-    "akita": "^0.2.2",
-    "alaska": "^0.11.0",
-    "alaska-admin": "^0.11.0",
+    "akita": "^0.3.0",
+    "alaska": "^0.11.3",
+    "alaska-admin": "^0.11.3",
     "alaska-cache-mongo": "^0.11.0",
-    "alaska-field-datetime": "^0.11.0",
+    "alaska-field-datetime": "^0.11.3",
     "alaska-field-html": "^0.11.0",
-    "alaska-field-relationship": "^0.11.0",
+    "alaska-field-relationship": "^0.11.2",
     "alaska-field-text": "^0.11.0",
     "alaska-update": "^0.11.0",
-    "alaska-user": "^0.11.0",
+    "alaska-user": "^0.11.3",
     "babel-plugin-syntax-class-properties": "^6.13.0",
     "babel-plugin-syntax-flow": "^6.18.0",
     "babel-plugin-transform-class-properties": "^6.23.0",
@@ -50,8 +50,8 @@
     "koa-logger": "^2.0.1"
   },
   "devDependencies": {
-    "alaska-admin-view": "^0.11.0",
-    "alaska-cli": "^0.11.1",
+    "alaska-admin-view": "^0.11.3",
+    "alaska-cli": "^0.11.2",
     "animate.css": "^3.5.2",
     "babel-eslint": "^7.2.0",
     "babel-loader": "^6.4.1",
@@ -62,7 +62,7 @@
     "bootstrap": "^3.3.7",
     "eslint": "^3.18.0",
     "eslint-config-airbnb": "^14.1.0",
-    "eslint-plugin-flowtype": "^2.30.3",
+    "eslint-plugin-flowtype": "^2.30.4",
     "eslint-plugin-flowtype-errors": "^3.0.1",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
@@ -83,6 +83,6 @@
     "rollup-plugin-uglify": "^1.0.1",
     "rollup-watch": "^3.2.2",
     "string-replace-loader": "^1.0.5",
-    "webpack": "^2.2.1"
+    "webpack": "^2.3.0"
   }
 }
