@@ -1,9 +1,11 @@
 export default {
   db: process.env.DB,
-  appMiddlewares: [{
-    id: 'koa-logger',
-    sort: 1000
-  }],
+  middlewares: [
+    {
+      id: 'koa-logger',
+      sort: 1000
+    }
+  ],
   session: {
     cookie: {},
     store: {
