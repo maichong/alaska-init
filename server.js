@@ -3,23 +3,15 @@
 
 'use strict';
 
-process.title = 'example';
 process.chdir(__dirname);
 
 process.env.BABEL_CACHE_PATH = process.env.BABEL_CACHE_PATH || 'runtime/babel-cache.json';
-process.env.NODE_ENV = process.env.NODE_ENV || 'production';
-
-if (!process.env.DB) {
-  if (process.env.MONGO_PORT_27017_TCP_ADDR) {
-    process.env.DB = 'mongodb://' + process.env.MONGO_PORT_27017_TCP_ADDR + '/alaska-demo';
-  } else {
-    process.env.DB = 'mongodb://localhost/alaska-demo';
-  }
-}
+process.env.NODE_ENV = process.env.NODE_ENV || 'development';
+process.env.DEBUG = process.env.DEBUG || '*,-babel';
 
 require('babel-register')({
   ignore: [
-    /node_modules\/(?!alaska)/
+    /node_modules/
   ],
   babelrc: false,
   presets: [],
@@ -32,10 +24,14 @@ require('babel-register')({
   ]
 });
 
-let service = require('./').default;
+const service = require('./src/').default;
+const createModules = require('alaska-modules').default;
 
-service.launch().then(() => {
+const modules = createModules(service);
+
+service.launch(modules).then(() => {
   console.log('server started');
+  console.log('listen :' + service.getConfig('port'));
 }, (error) => {
   console.error(error.stack);
   process.exit(1);

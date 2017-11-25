@@ -1,6 +1,6 @@
 export default {
   db: process.env.DB,
-  appMiddlewares: [
+  middlewares: [
     {
       id: 'koa-logger',
       sort: 1000

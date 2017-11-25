@@ -11,7 +11,7 @@ export default class SetHot extends Sled {
 
     if (params.records) {
       await Promise.all(
-        params.records.map(async (record) => {
+        params.records.map(async(record) => {
           record.hot = true;
           await record.save();
         })

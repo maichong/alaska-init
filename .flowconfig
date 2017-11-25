@@ -10,6 +10,5 @@ node_modules/flow-alaska/flow/
 node_modules/flow-mongoose/flow/
 
 [options]
-strip_root=true
 suppress_comment= \\(.\\|\n\\)*\\$Flow
 unsafe.enable_getters_and_setters=true
