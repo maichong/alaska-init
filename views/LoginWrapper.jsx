@@ -7,7 +7,6 @@
 import React from 'react';
 
 export default class LoginWrapper extends React.Component {
-
   props: {
     children: any
   };
@@ -20,7 +19,8 @@ export default class LoginWrapper extends React.Component {
           textAlign: 'center',
           marginTop: 30,
           fontSize: 12
-        }}>Powered By Alaska
+        }}
+        >Powered By Alaska
         </div>
       </div>
     );

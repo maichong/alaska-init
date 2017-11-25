@@ -1,7 +1,8 @@
 {
   "extends": "airbnb",
   "env": {
-    "node": true
+    "node": true,
+    "browser": true
   },
   "globals": {
   },
@@ -12,15 +13,26 @@
     "flowtype/use-flow-type": 1,
     "flowtype-errors/show-errors": 2,
     "arrow-parens": [2, "always"],
-    "class-methods-use-this": 1,
+    "class-methods-use-this": 0,
     "prefer-const": 0,
     "prefer-template": 0,
+    "prefer-destructuring": 1,
+    "no-await-in-loop": 0,
     "no-duplicate-imports": 0,
+    "no-empty-function": 0,
     "no-param-reassign": 0,
     "no-prototype-builtins": 0,
     "no-underscore-dangle": 0,
     "no-continue": 0,
     "no-console": [1, {"allow": ["warn", "error", "trace"]}],
+    "no-multiple-empty-lines": ["error", {"max": 1}],
+    "no-return-await": 0,
+    "no-restricted-syntax": [
+      "error",
+      "ForInStatement",
+      "LabeledStatement",
+      "WithStatement"
+    ],
     "comma-dangle": [
       "error", {
         "arrays": "only-multiline",
@@ -30,22 +42,35 @@
         "functions": "never"
       }
     ],
+    "space-before-function-paren": [
+      "error", {
+        "anonymous": "always",
+        "named": "never",
+        "asyncArrow": "never"
+      }
+    ],
+    "consistent-return": ["error", {"treatUndefinedAsUnspecified": true}],
     "spaced-comment": [0, "always"],
     "func-names": 0,
     "import/extensions": 0,
     "import/no-unresolved": 0,
     "import/no-extraneous-dependencies": 0,
     "import/no-duplicates": 2,
-    "import/prefer-default-export": 1,
+    "import/prefer-default-export": 0,
     "radix": 0,
     "max-len": [2, {"code": 120, "ignoreComments": true}],
-    "require-yield": 1,
+    "jsx-a11y/anchor-is-valid": 1,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/href-no-hash": "off",
     "jsx-a11y/label-has-for": 0,
+    "jsx-a11y/img-has-alt": 0,
     "jsx-a11y/no-static-element-interactions": 1,
+    "jsx-a11y/no-noninteractive-element-interactions": 1,
     "react/forbid-prop-types": 0,
     "react/no-unused-prop-types": 1,
     "react/prefer-stateless-function": 0,
     "react/jsx-wrap-multilines": [2, {"declaration": false, "assignment": false, "return": true}],
+    "react/jsx-closing-tag-location": 0,
     "react/sort-comp": [
       2, {
         "order": [
@@ -54,6 +79,7 @@
           "lifecycle",
           "everything-else",
           "/^handle.+$/",
+          "/^render.+$/",
           "render"
         ],
         "groups": {
