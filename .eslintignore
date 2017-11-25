@@ -6,3 +6,5 @@ public/
 webpack.*
 rollup.*
 gulpfile.js
+dist/
+src/modules.js
