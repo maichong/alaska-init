@@ -26,19 +26,19 @@
   "homepage": "https://github.com/maichong/alaska-init#readme",
   "dependencies": {
     "akita": "^0.3.7",
-    "alaska": "^0.12.0",
-    "alaska-cache-mongo": "^0.12.0",
-    "alaska-field-datetime": "^0.12.0",
-    "alaska-field-html": "^0.12.0",
-    "alaska-field-relationship": "^0.12.0",
-    "alaska-field-text": "^0.12.0",
+    "alaska": "^0.12.3",
+    "alaska-cache-mongo": "^0.12.3",
+    "alaska-field-datetime": "^0.12.3",
+    "alaska-field-html": "^0.12.3",
+    "alaska-field-relationship": "^0.12.3",
+    "alaska-field-text": "^0.12.3",
     "koa-logger": "^2.0.1"
   },
   "devDependencies": {
-    "alaska-cli": "^0.12.0",
-    "alaska-modules": "^0.12.0",
+    "alaska-cli": "^0.12.3",
+    "alaska-modules": "^0.12.3",
     "babel-cli": "^6.26.0",
-    "babel-eslint": "^8.0.2",
+    "babel-eslint": "^8.0.3",
     "babel-loader": "^7.1.2",
     "babel-plugin-syntax-class-properties": "^6.13.0",
     "babel-plugin-syntax-flow": "^6.18.0",
@@ -51,15 +51,14 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.26.0",
-    "eslint": "^4.11.0",
+    "eslint": "^4.12.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-flowtype": "^2.39.1",
     "eslint-plugin-flowtype-errors": "^3.3.6",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.5.1",
-    "flow-alaska": "^0.12.0",
-    "flow-bin": "^0.59.0",
-    "flow-mongoose": "^0.1.1"
+    "flow-bin": "^0.60.1",
+    "flow-declarations": "^0.1.1"
   }
 }
