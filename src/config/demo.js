@@ -27,10 +27,12 @@ export default {
   domain: '',
   prefix: '',
   redirect: '',
-  statics: [{
-    root: 'public',
-    prefix: ''
-  }],
+  statics: [
+    {
+      root: '../public',
+      prefix: ''
+    }
+  ],
   superUser: '',
   autoUpdate: true,
   'alaska-field-image': {
