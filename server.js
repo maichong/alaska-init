@@ -12,15 +12,6 @@ process.env.DEBUG = process.env.DEBUG || '*,-babel';
 require('babel-register')({
   ignore: [
     /node_modules/
-  ],
-  babelrc: false,
-  presets: [],
-  plugins: [
-    'syntax-flow',
-    'transform-class-properties',
-    'transform-es2015-modules-commonjs',
-    'transform-flow-strip-types',
-    'transform-object-rest-spread'
   ]
 });
 

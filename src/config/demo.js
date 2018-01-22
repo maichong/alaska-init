@@ -25,6 +25,9 @@ export default {
       prefix: ''
     }
   ],
+  renderer: {
+    type: 'alaska-renderer-art',
+  },
   superUser: '',
   autoUpdate: true,
   'alaska-field-image': {
