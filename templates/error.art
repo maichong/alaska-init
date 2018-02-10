@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="{{ locale }}">
+<head>
+  <meta charset="UTF-8">
+  <title>Error</title>
+</head>
+<body>
+
+<style>
+  h1 {
+    text-align: center;
+    margin: 100px 0;
+    font-size: 24px;
+    color: #333;
+  }
+</style>
+<h1>{{ errorMessage }}</h1>
+</body>
+</html>

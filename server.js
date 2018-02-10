@@ -1,8 +1,6 @@
 /* eslint strict:0 */
 /* eslint no-console:0 */
 
-'use strict';
-
 process.chdir(__dirname);
 
 process.env.BABEL_CACHE_PATH = process.env.BABEL_CACHE_PATH || 'runtime/babel-cache.json';

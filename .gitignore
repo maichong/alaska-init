@@ -40,3 +40,4 @@ runtime/
 dist/
 package-lock.json
 src/modules.js
+public/js
