@@ -13,7 +13,7 @@ exports.routes = [
 
 exports.wrappers = {
   //content:[ __dirname + '/ContentWrapper.jsx' ],
-  login: [__dirname + '/LoginWrapper.jsx']
+  login: [__dirname + '/admin/wrappers/LoginWrapper.jsx']
 };
 
 exports.navs = [
