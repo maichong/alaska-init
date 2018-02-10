@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="{{ locale }}">
+<head>
+  <meta charset="UTF-8">
+  <title>Alaska</title>
+</head>
+<body>
+
+<style>
+  h1 {
+    text-align: center;
+    margin: 100px 0;
+    font-size: 24px;
+    color: #333;
+  }
+</style>
+<h1>{{ t('greeting',{name:'Alaska'}) }}</h1>
+
+<div id="IndexPage" class="react">{{@ react('pages/IndexPage.jsx', {store:store}) }}</div>
+<div id="app">
+</div>
+
+{{ if env=='production' }}
+<script type="application/javascript" src="/js/app.min.js"></script>
+{{ else }}
+<script type="application/javascript" src="/js/app.js"></script>
+{{ /if }}
+</body>
+</html>
