@@ -1,3 +1,6 @@
+import { lastArticlesRequest } from '../redux/lastArticles';
+
 export default async function (ctx) {
-  await ctx.show('index.swig');
+  ctx.state.store.dispatch(lastArticlesRequest());
+  await ctx.show('index');
 }
